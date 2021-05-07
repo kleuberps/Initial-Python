@@ -1,0 +1,7 @@
+print('Média de nota')
+nota1 = int(input('Digite a primeiro nota: '))
+peso1 = int(input('Digite o peso: '))
+nota2 = int(input('Digite a segunda nota: '))
+peso2 = int(input('Digite o peso: '))
+media = round((((nota1*peso1) + (nota2*peso2)) / (peso1+peso2)),2)
+print( 'A média final é:',media)
